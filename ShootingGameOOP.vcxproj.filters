@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{e1517d75-8dba-4d54-9184-b05414d4b18f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{745cb661-5874-469f-8e3d-abd62cd6232f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{46b68085-5ea8-4cf3-b2c8-6e1294f26308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{566b3cd2-8ef9-4b8c-a0c2-0c1b425c427b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object">
+      <UniqueIdentifier>{8154445b-e3e4-4ed5-afae-ee8588015363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{c3f21793-a8f9-4754-8537-c3080c0337db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\InfoData">
+      <UniqueIdentifier>{b3baff7a-b46a-4f84-82df-a376a8aa9261}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenBuffer.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletEnemy.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletPlayer.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="DataLoader.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTitle.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="TextBox.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGameOver.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneStage.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneClear.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenBuffer.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneStage.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectType.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseScene.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletEnemy.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletPlayer.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyInfo.h">
+      <Filter>Game\InfoData</Filter>
+    </ClInclude>
+    <ClInclude Include="DataLoader.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementInfo.h">
+      <Filter>Game\InfoData</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneTitle.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneType.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="TextBox.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGameOver.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneClear.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
